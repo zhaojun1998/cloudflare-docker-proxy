@@ -4,12 +4,12 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.file.ga": "https://registry-1.docker.io",
-  "quay.file.ga": "https://quay.io",
-  "gcr.file.ga": "https://gcr.io",
-  "k8s-gcr.file.ga": "https://k8s.gcr.io",
-  "k8s.file.ga": "https://registry.k8s.io",
-  "ghcr.file.ga": "https://ghcr.io"
+  "docker.zhaojun.im": "https://registry-1.docker.io",
+  "quay.zhaojun.im": "https://quay.io",
+  "gcr.zhaojun.im": "https://gcr.io",
+  "k8s-gcr.zhaojun.im": "https://k8s.gcr.io",
+  "k8s.zhaojun.im": "https://registry.k8s.io",
+  "ghcr.zhaojun.im": "https://ghcr.io"
 };
 
 function routeByHosts(host) {
